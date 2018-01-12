@@ -1,0 +1,14 @@
+<globalData>
+    <H>1</H>                                    <!-- szerokość przekroju w m-->
+    <B>1</B>                                    <!-- wysokość przekroju w m-->
+    <nH>1</nH>                                 <!-- Liczba węzłów (wysokość) -->
+    <nB>1</nB>                                <!-- Liczba węzłów (szerokość) -->
+    <temperatureStart>100</temperatureStart>    <!-- Temperatura początkowa -->
+    <time>3600</time>                           <!-- Czas procesu -->
+    <deltaTime>1</deltaTime>                    <!-- Krok czasu w sek -->
+    <temperature>1000</temperature>             <!-- Temperatura otoczenia -->
+    <alfa>300</alfa>                            <!-- Współczynnik wymiany ciepła -->
+    <cw>1000</cw>                                <!-- Ciepło właściwe J/kg*C -->
+    <k>250</k>                                   <!-- Współczynnik przewodzenia ciepła W / cm^2 -->
+    <density>7000</density>                     <!-- Gęstość w kg/m3 -->
+</globalData>
