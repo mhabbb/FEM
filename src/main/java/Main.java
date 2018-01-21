@@ -1,11 +1,16 @@
 import fem.GlobalData;
 import files.XmlReader;
+import integral.Integral;
+import org.apache.log4j.BasicConfigurator;
 
 public class Main {
     public static void main(String[] args) {
-        //xx
+        BasicConfigurator.configure();
         XmlReader xmlReader = new XmlReader();
         GlobalData globalData = xmlReader.readDataConfiguration();
-        System.out.println(globalData.getB());
+
+        Integral integral = new Integral();
+        System.out.println(integral.doublePointIntegral());
+        System.out.println(integral.triplePointIntegral());
     }
 }
